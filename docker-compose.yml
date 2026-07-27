@@ -1,0 +1,11 @@
+services:
+  ciberguardia:
+    build: .
+    container_name: ciberguardia_app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
