@@ -1,0 +1,5 @@
+id,amenaza,tecnica_utilizada,como_detectarlo,medida_preventiva
+1,Vishing (Llamadas),Suplantación de identidad telefónica (ej. "Soporte Técnico" o "Banco").,Piden dictar códigos de verificación SMS/MFA o claves por llamada.,Colgar inmediatamente. Ningún área de soporte o banco solicitará códigos MFA por teléfono.
+2,Smishing (SMS),Mensajes SMS sobre paquetes pendientes, multas o premios.,Incluyen un enlace urgente para "corregir tu dirección" o "reclamar dinero".,Borrar el SMS. No acceder a ningún enlace proveniente de números desconocidos.
+3,Wi-Fi Pública,Redes Wi-Fi abiertas en aeropuertos, cafeterías u hoteles.,Nombres de red ambiguos o redes sin contraseña que permiten la interceptación de tráfico.,Evitar transacciones bancarias o acceso a sistemas de la empresa. Utilizar datos móviles o VPN.
+4,Tailgating (Físico),Aprovechar que un empleado abre una puerta con tarjeta para colarse detrás.,Personas desconocidas sin credencial visible que piden que sostengas la puerta.,Solicitar amablemente que registren su entrada en recepción antes de permitir el paso.

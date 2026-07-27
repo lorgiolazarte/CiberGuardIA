@@ -1,0 +1,5 @@
+id,tema,norma_o_regla,procedimiento_reporte,consecuencia_o_riesgo
+1,Reporte de Incidentes,Pérdida o robo de equipos de trabajo,Notificar inmediatamente al departamento de TI y Ciberseguridad antes de 2 horas tras el suceso.,Permite el borrado remoto de la laptop o celular empresarial para evitar fugas de información sensible.
+2,Seguridad Física,Política de Escritorio Limpio (Clean Desk),No dejar documentos confidenciales, notas adhesivas con claves o dispositivos USB desatendidos en el escritorio.,Riesgo de acceso no autorizado por personal externo o de limpieza a datos confidenciales.
+3,Redes y Accesos,Uso obligatorio de VPN,Toda conexión a recursos de la empresa desde redes externas o remotas debe realizarse a través de la VPN institucional.,Evita el espionaje de tráfico de datos en redes domésticas o públicas.
+4,Manejo de Información,Clasificación de datos,Información clasificada como "Confidencial" no debe subirse a herramientas de IA públicas o nubes personales.,Exposición inadvertida de propiedad intelectual o datos de clientes a terceros.

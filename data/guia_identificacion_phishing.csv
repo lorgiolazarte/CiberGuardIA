@@ -1,0 +1,5 @@
+id,categoria,indicador_riesgo,descripcion,accion_recomendada
+1,Phishing por Correo,Urgencia o amenazas en el asunto,Mensajes que exigen acción inmediata (ej. "Su cuenta será bloqueada en 2 horas" o "Factura vencida hoy").,No hacer clic en enlaces ni abrir adjuntos. Verificar la solicitud por un canal oficial secundario.
+2,Phishing por Correo,Dominio de remitente falsificado o sospechoso,Direcciones que imitan marcas reales pero cambian letras (ej. soporte@m1crosoft.com o rrhh@empresa-pagos.NET).,Revisar detenidamente la dirección completa del remitente y no solo el nombre visible.
+3,Archivos Adjuntos,Extensiones de riesgo (.exe, .zip con contraseña, .xlsm),Archivos que solicitan activar macros o ejecutar programas para "ver el documento".,No descargar ni ejecutar archivos. Enviar el correo a la casilla de reporte de ciberseguridad.
+4,Sitios Web Falsos,Enlaces acortados o URL dispares,El texto del enlace dice una cosa (ej. "www.mibanco.com"), pero al pasar el cursor encima muestra otra dirección totalmente distinta.,Pasar el cursor sobre el enlace para verificar la URL real antes de hacer clic.

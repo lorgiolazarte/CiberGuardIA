@@ -1,0 +1,4 @@
+id,aspecto,buena_practica,lo_que_debes_evitar,herramienta_recomendada
+1,Contraseñas,Utilizar frases de paso (passphrases) de más de 14 caracteres combinando palabras, números y símbolos.,Reutilizar la misma contraseña en la cuenta de trabajo y en redes sociales o servicios personales.,Gestor de contraseñas institucional.
+2,Autenticación,Activar siempre Autenticación de Doble Factor (MFA/2FA).,Aprobar notificaciones push de MFA si no estás intentando iniciar sesión en ese momento exacto.,Aplicaciones de autenticación (Google/Microsoft Authenticator) en lugar de SMS.
+3,Compartición,Las credenciales son personales e intransferibles.,Escribir contraseñas en cuadernos, notas adhesivas en el monitor o compartirlas por chat/Slack.,Funcionalidad de "Compartir de forma segura" integrada en el gestor de contraseñas.
