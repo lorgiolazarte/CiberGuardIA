@@ -59,6 +59,7 @@ Asistente virtual interactivo basado en una arquitectura RAG (\*Retrieval-Augmen
 
 ## 🚀 Instalación y Configuración
 
+---
 ### 1. Clonar el repositorio
 
 ```bash
@@ -66,6 +67,7 @@ git clone \\\[https://github.com/lorgiolazarte/CiberGuardIA.git](https://github.
 cd CiberGuardIA
 ```
 
+---
 ### 2. Crear y activar el entorno virtual
 
 ```bash
@@ -85,6 +87,7 @@ python -m venv .venv
 
 ```
 
+---
 ### 3. Instalar dependencias
 
 ```bash
@@ -92,7 +95,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 ```
-
+---
 ### 4. Configurar la clave de API
 
 Crea un archivo `.env` en la raíz del proyecto:
@@ -126,10 +129,46 @@ python app.py
 
 
 \---
+## 💻 Modos de Contenedor con Docker
+
+```bash
+
+git clone https://github.com/lorgiolazarte/CiberGuardIA.git
+vi .env
+sudo docker compose up -d
+
+```
+
+### 5.💡 Ejemplos de Uso
+
+**CiberGuardIA** está diseñado para responder consultas sobre concientización en ciberseguridad utilizando un sistema RAG (*Retrieval-Augmented Generation*). Puede responder a preguntas sobre políticas internas, detección de fraudes y buenas prácticas.
+
+---
+
+### 🌐 Interfaz Web (Streamlit)
+
+1. Abre la aplicación en tu navegador (ej. `http://tu-ip-servidor:8501`).
+2. En la barra lateral o en el chat principal, escribe tu consulta.
+3. El agente buscará en la base de conocimientos (*FAISS vector database*) y generará una respuesta contextualizada con **Gemini 2.0 Flash**.
+
+#### Ejemplos de preguntas que puedes hacerle:
+
+* **Identificación de Phishing:**
+  > *"Recibí un correo que dice ser de mi banco pidiéndome verificar mi cuenta con urgencia, ¿cómo sé si es falso?"*
+
+* **Gestión de Credenciales:**
+  > *"¿Cuáles son las reglas de la empresa para crear una contraseña segura y con qué frecuencia debo cambiarla?"*
+
+* **Ingeniería Social y Móviles:**
+  > *"Me escribieron por WhatsApp ofreciéndome un trabajo fácil a cambio de dar mis datos personales, ¿qué debo hacer?"*
+
+* **Políticas Organizacionales:**
+  > *"¿Puedo conectar mi dispositivo USB personal a la computadora del trabajo para copiar unos archivos?"*
+
+---
 
 
-
-## 📸 Evidencias de Funcionamiento
+### 6. 📸 Evidencias de Funcionamiento
 
 
 
@@ -142,3 +181,9 @@ python app.py
 
 ![Ejecución en Consola](docs/ejecucion\_cli.png)
 
+\*(Instalando contenedor en la nube)\*
+![Instalacion nube oracle](docs/contendedor_nube.png)
+
+\*(Accediendo a la consola web desde la Nube de Oracle)\
+https://cibergia.xmartauto.uk/  (Acceso Temporal)*
+![Acceso desde nube oracle](docs/funcionamiento_desde_nube.png)
